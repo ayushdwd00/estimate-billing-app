@@ -1,45 +1,56 @@
-# 🧾 Billing & WhatsApp Estimate System
+# Billing & WhatsApp Estimate System
 
-A Python-based billing and estimate generation app for **CCTV and weighing scale shops**. It allows users to add products, create estimates, calculate GST, and share estimates via WhatsApp.
-
----
-
-## ✨ Features
-
-* 📦 Add and remove products from catalog
-* 🛒 Create multi-item estimates
-* 🧮 Automatic subtotal, GST (18%), and total calculation
-* 👤 Add customer details during billing
-* 📱 Send estimate via WhatsApp
+A Python-based billing and estimate generation application designed for CCTV and weighing scale shops.
+It allows users to manage products, create estimates, calculate GST, and send estimates directly via WhatsApp.
 
 ---
 
-## 📸 Screenshots
+## Features
 
-**Main Interface**
-
-![Main Interface](screenshots/main.png)
-
-**Estimate and Calculation**
-
-![Estimate and Calculation](screenshots/estimate.png)
-
-**WhatsApp Section**
-
-![WhatsApp Section](screenshots/whatsapp.png)
+* Add and remove products from catalog
+* Create multi-item estimates
+* Automatic subtotal, GST (18%), and grand total calculation
+* Add customer details during billing
+* Generate and send estimates via WhatsApp
 
 ---
 
-## 🛠️ Tech Stack
+## Screenshots
+
+### Main Interface
+
+![Main](images/main.png)
+
+### Estimate and Calculation
+
+![Estimate](images/estimate.png)
+
+### WhatsApp Section
+
+![WhatsApp](images/whatsapp.png)
+
+---
+
+## Tech Stack
 
 * Python
 * Streamlit
 * Pandas
-* FPDF
 
 ---
 
-## 🚀 Run Locally
+## How It Works
+
+* Products are stored in a CSV file
+* Users can dynamically add or remove products
+* Selected items are added to a cart
+* GST is applied automatically
+* A formatted estimate is generated
+* A WhatsApp link is created with pre-filled estimate details
+
+---
+
+## Run Locally
 
 ```bash
 streamlit run app.py
@@ -47,16 +58,15 @@ streamlit run app.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 estimate-billing-app/
 │
 ├── app.py
 ├── products.csv
-├── customers.csv
 ├── requirements.txt
-├── screenshots/
+├── images/
 │   ├── main.png
 │   ├── estimate.png
 │   ├── whatsapp.png
@@ -64,6 +74,6 @@ estimate-billing-app/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Ayush Dwivedi**
+Ayush Dwivedi
