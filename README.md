@@ -18,15 +18,12 @@ It allows users to add products, create estimates, calculate GST, and share esti
 ## Screenshots
 
 ### Main Interface
-
 ![Main](screenshots/main.png)
 
 ### Estimate and Calculation
-
 ![Estimate](screenshots/estimate.png)
 
 ### WhatsApp Section
-
 ![WhatsApp](screenshots/whatsapp.png)
 
 ---
